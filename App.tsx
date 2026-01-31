@@ -126,7 +126,7 @@ const App: React.FC = () => {
 
                 <div className="flex-1 overflow-y-auto p-8 lg:p-12 space-y-10 custom-scrollbar">
                     {/* Top Hero Section */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
                         <div className="space-y-6 animate-in slide-in-from-left duration-500">
                             <div className="space-y-2">
                                 <h3 className="text-3xl font-bold text-white tracking-tight leading-tight">
@@ -167,7 +167,7 @@ const App: React.FC = () => {
                                             <img
                                                 src={member.img}
                                                 alt={member.name}
-                                                className="w-12 h-12 rounded-full border-2 border-slate-700 group-hover:border-indigo-500 transition-colors"
+                                                className="w-14 h-14 rounded-full border-2 border-slate-700 group-hover:border-indigo-500 transition-colors"
                                             />
                                             <div>
                                                 <p className="font-bold text-sm text-white">

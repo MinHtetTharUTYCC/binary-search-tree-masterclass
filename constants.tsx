@@ -6,12 +6,20 @@ export const TEAM_MEMBERS = [
         role: 'Java Developer',
         img: 'https://lh3.googleusercontent.com/a/ACg8ocKOiK1fDw1AN5rBOWlKmzLOJuTDgo5amD67qnK38DE8NQKTiEwb=s200-c',
     },
-    { name: 'Kyaw Saw Ye Yint(Sam)', role: 'Java Developer', img: 'https://i.pravatar.cc/150?u=2' },
-    { name: 'Min Thet Cho(Min)', role: 'Java Developer', img: 'https://i.pravatar.cc/150?u=2' },
+    {
+        name: 'Kyaw Saw Ye Yint(Sam)',
+        role: 'Java Developer',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
+    },
+    {
+        name: 'Min Thet Cho(Min)',
+        role: 'Java Developer',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
+    },
     {
         name: 'Sai Myat Phone Oo(Sai)',
         role: 'Java Developer',
-        img: 'https://i.pravatar.cc/150?u=2',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
     },
     {
         name: 'Myat Thura Saung(Saung)',
@@ -19,8 +27,21 @@ export const TEAM_MEMBERS = [
         img: '/images/saung.jpg',
         // img: 'https://i.pravatar.cc/150?u=5',
     },
-    { name: 'Kyaw Zaw Win(Leo2)', role: 'Java Developer', img: 'https://i.pravatar.cc/150?u=2' },
-    { name: 'Saw Yan Shein', role: 'Java Developer', img: 'https://i.pravatar.cc/150?u=2' },
+    {
+        name: 'Kyaw Zaw Win(Leo2)',
+        role: 'Java Developer',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
+    },
+    {
+        name: 'Saw Yan Shein',
+        role: 'Java Developer',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
+    },
+    {
+        name: 'Than Tun Oo(Than)',
+        role: 'Java Developer',
+        img: 'https://i.pravatar.cc/150?u=fake@pravatar.com',
+    },
 ];
 
 export const PAGE_DATA: Record<BSTFunction, PageContent> = {
@@ -33,7 +54,7 @@ export const PAGE_DATA: Record<BSTFunction, PageContent> = {
         complexity: { time: 'N/A', space: 'N/A' },
         terminalOutput: [
             'Fetching team members...',
-            '7 contributors found.',
+            '8 contributors found.',
             'Loading profile images...',
         ],
     },
